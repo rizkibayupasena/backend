@@ -1,0 +1,194 @@
+<aiml version="2.0">
+  <!-- Aturan AIML Default Pertanyaan Basa Basi -->
+  <category>
+    <pattern>HI</pattern>
+    <template>HI juga ada yang bisa saya bantu?</template>
+  </category>
+
+  <category>
+    <pattern>HALO</pattern>
+    <template>Halo juga</template>
+  </category>
+
+  <category> 
+    <pattern>* KAMU *</pattern>  
+    <template> 
+        <random> 
+            <li>Bisa di bilang saya adalah bot</li> 
+            <li>Saya adalah virtual assiten kelurahan negeri agung</li> 
+            <li>hmmmm saya siapa ya? bisa bantu jelaskan siapa saya?</li> 
+        </random> 
+    </template> 
+  </category>
+
+
+  <!-- Aturan AIML JIKA JAWABAN TIDAK ADA -->
+  <category>
+    <pattern>*</pattern>
+    <template>Maaf saya tidak mengerti maksud anda</template>
+  </category>
+
+<!-- Aturan pertanyaan ada -->
+
+<!-- ===========KTP============== -->
+
+  <category>
+    <pattern>* KTP *</pattern>
+    <template>
+      untuk mengurus keperluan KTP, syarat dan berkas - berkas yang di serahkan :
+      
+      Syarat :
+      1. Berusia minimal 18 tahun. 
+      2. Berdomisili di wilayah Negeri Agung
+
+      Berkas :
+      1. Kartu Keluarga
+      2. Akte Kelahiran (Jika ada)
+    </template>
+  </category>
+
+  <category>
+    <pattern>KTP *</pattern>
+    <template>
+      untuk mengurus keperluan KTP, syarat dan berkas - berkas yang di serahkan :
+      
+      Syarat :
+      1. Berusia minimal 18 tahun. 
+      2. Berdomisili di wilayah Negeri Agung
+
+      Berkas :
+      1. Kartu Keluarga
+      2. Akte Kelahiran (Jika ada)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* KTP</pattern>
+    <template>
+      untuk mengurus keperluan KTP, syarat dan berkas - berkas yang di serahkan :
+      
+      Syarat :
+      1. Berusia minimal 18 tahun. 
+      2. Berdomisili di wilayah Negeri Agung
+
+      Berkas :
+      1. Kartu Keluarga
+      2. Akte Kelahiran (Jika ada)
+    </template>
+  </category>
+
+  <category>
+    <pattern>KTP</pattern>
+    <template>
+      untuk mengurus keperluan KTP, syarat dan berkas - berkas yang di serahkan :
+      
+      Syarat :
+      1. Berusia minimal 18 tahun. 
+
+      Berkas :
+      1. Kartu Keluarga
+      2. Akte Kelahiran (Jika ada)
+    </template>
+  </category>
+
+
+  <!-- ===============KARTU KELUARGA==================== -->
+
+  <category>
+    <pattern>KARTU KELUARGA</pattern>
+    <template>
+      untuk mengurus keperluan KK,berkas - berkas yang di serahkan :
+    
+      Berkas :
+      1. Membawa KTP.
+      2. Membawa Kartu Keluarga Sebelumnya ( Jika ada )
+    </template>
+  </category>
+
+  <category>
+    <pattern>* KARTU KELUARGA</pattern>
+    <template>
+      untuk mengurus keperluan KK,berkas - berkas yang di serahkan :
+    
+      Berkas :
+      1. Membawa KTP.
+      2. Membawa Kartu Keluarga Sebelumnya ( Jika ada )
+    </template>
+  </category>
+
+  <category>
+    <pattern>KARTU KELUARGA *</pattern>
+    <template>
+      untuk mengurus keperluan KK,berkas - berkas yang di serahkan :
+    
+      Berkas :
+      1. Membawa KTP.
+      2. Membawa Kartu Keluarga Sebelumnya ( Jika ada )
+    </template>
+  </category>
+
+  <category>
+    <pattern>* KARTU KELUARGA *</pattern>
+    <template>
+      untuk mengurus keperluan KK,berkas - berkas yang di serahkan :
+    
+      Berkas :
+      1. Membawa KTP.
+      2. Membawa Kartu Keluarga Sebelumnya ( Jika ada )
+    </template>
+  </category>
+
+  <category>
+    <pattern> KK </pattern>
+    <template>
+      untuk mengurus keperluan KK,berkas - berkas yang di serahkan :
+    
+      Berkas :
+      1. Membawa KTP.
+      2. Membawa Kartu Keluarga Sebelumnya ( Jika ada )
+    </template>
+  </category>
+
+  <category>
+    <pattern>* KK</pattern>
+    <template>
+      untuk mengurus keperluan KK,berkas - berkas yang di serahkan :
+    
+      Berkas :
+      1. Membawa KTP.
+      2. Membawa Kartu Keluarga Sebelumnya ( Jika ada )
+    </template>
+  </category>
+
+   <category>
+    <pattern>KK *</pattern>
+    <template>
+      untuk mengurus keperluan KK,berkas - berkas yang di serahkan :
+    
+      Berkas :
+      1. Membawa KTP.
+      2. Membawa Kartu Keluarga Sebelumnya ( Jika ada )
+    </template>
+  </category>
+
+   <category>
+    <pattern>* KK *</pattern>
+    <template>
+      untuk mengurus keperluan KK,berkas - berkas yang di serahkan :
+    
+      Berkas :
+      1. Membawa KTP.
+      2. Membawa Kartu Keluarga Sebelumnya ( Jika ada )
+    </template>
+  </category>
+
+  
+  <!-- ================SKCK============= -->
+  
+  <category>
+    <pattern>* SKCK *</pattern>
+    <template>untuk mengurus keperluan SKCK,berkas - berkas yang di serahkan : (br)1. Surat Keterangan Kepolisian Berkas 1. Membawa Kartu Tanda Penduduk (KTP)2. Membawa Kartu Keluarga (KK)</template>
+  </category>
+
+
+</aiml>
