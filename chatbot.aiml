@@ -92,7 +92,7 @@
   </category>
 
 
-  <!-- ===============KARTU KELUARGA==================== -->
+<!-- ===============KARTU KELUARGA==================== -->
 
   <category>
     <pattern>KARTU KELUARGA</pattern>
@@ -182,13 +182,705 @@
     </template>
   </category>
 
-  
-  <!-- ================SKCK============= -->
+<!-- ================SKCK============= -->
   
   <category>
     <pattern>* SKCK *</pattern>
-    <template>untuk mengurus keperluan SKCK,berkas - berkas yang di serahkan : (br)1. Surat Keterangan Kepolisian Berkas 1. Membawa Kartu Tanda Penduduk (KTP)2. Membawa Kartu Keluarga (KK)</template>
+    <template>untuk mengurus keperluan SKCK,berkas - berkas yang di serahkan 
+    SYARAT : 
+    1. Surat Keterangan Kepolisian 
+    
+    BERKAS : 
+    1. Membawa Kartu Tanda Penduduk (KTP)
+    2. Membawa Kartu Keluarga (KK)
+    </template>
   </category>
 
+  <category>
+    <pattern>* SKCK</pattern>
+    <template>untuk mengurus keperluan SKCK,berkas - berkas yang di serahkan 
+    SYARAT : 
+    1. Surat Keterangan Kepolisian 
+    
+    BERKAS : 
+    1. Membawa Kartu Tanda Penduduk (KTP)
+    2. Membawa Kartu Keluarga (KK)
+    </template>
+  </category>
+
+  <category>
+    <pattern>SKCK *</pattern>
+    <template>untuk mengurus keperluan SKCK,berkas - berkas yang di serahkan 
+    SYARAT : 
+    1. Surat Keterangan Kepolisian 
+    
+    BERKAS : 
+    1. Membawa Kartu Tanda Penduduk (KTP)
+    2. Membawa Kartu Keluarga (KK)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SURAT KETERANGAN CARI KERJA *</pattern>
+    <template>untuk mengurus keperluan SKCK,berkas - berkas yang di serahkan 
+    SYARAT : 
+    1. Surat Keterangan Kepolisian 
+    
+    BERKAS : 
+    1. Membawa Kartu Tanda Penduduk (KTP)
+    2. Membawa Kartu Keluarga (KK)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SURAT KETERANGAN CARI KERJA</pattern>
+    <template>untuk mengurus keperluan SKCK,berkas - berkas yang di serahkan 
+    SYARAT : 
+    1. Surat Keterangan Kepolisian 
+    
+    BERKAS : 
+    1. Membawa Kartu Tanda Penduduk (KTP)
+    2. Membawa Kartu Keluarga (KK)
+    </template>
+  </category>
+
+  <category>
+    <pattern>SURAT KETERANGAN CARI KERJA *</pattern>
+    <template>untuk mengurus keperluan SKCK,berkas - berkas yang di serahkan 
+    SYARAT : 
+    1. Surat Keterangan Kepolisian 
+    
+    BERKAS : 
+    1. Membawa Kartu Tanda Penduduk (KTP)
+    2. Membawa Kartu Keluarga (KK)
+    </template>
+  </category>
+  
+<!-- ===============PERUBAHAN KK========= -->
+
+  <category>
+    <pattern>* PERUBAHAN KK *</pattern>
+    <template>  Untuk mengurus surat pengantar perubahan KK ( Kartu Keluarga ) Syarat dan berkas-berkas yang di serahkan
+    SYARAT : 
+    1. Surat Keterangan Pindah (Balai Pekon)
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PERUBAHAN KK</pattern>
+    <template>  Untuk mengurus surat pengantar perubahan KK ( Kartu Keluarga ) Syarat dan berkas-berkas yang di serahkan
+    SYARAT : 
+    1. Surat Keterangan Pindah (Balai Pekon)
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    </template>
+  </category>
+
+  <category>
+    <pattern>PERUBAHAN KK *</pattern>
+    <template>  Untuk mengurus surat pengantar perubahan KK ( Kartu Keluarga ) Syarat dan berkas-berkas yang di serahkan
+    SYARAT : 
+    1. Surat Keterangan Pindah (Balai Pekon)
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PERUBAHAN KARTU KELUARGA *</pattern>
+    <template>  Untuk mengurus surat pengantar perubahan KK ( Kartu Keluarga ) Syarat dan berkas-berkas yang di serahkan
+    SYARAT : 
+    1. Surat Keterangan Pindah (Balai Pekon)
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PERUBAHAN KARTU KELUARGA</pattern>
+    <template>  Untuk mengurus surat pengantar perubahan KK ( Kartu Keluarga ) Syarat dan berkas-berkas yang di serahkan
+    SYARAT : 
+    1. Surat Keterangan Pindah (Balai Pekon)
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    </template>
+  </category>
+
+  <category>
+    <pattern>PERUBAHAN KARTU KELUARGA *</pattern>
+    <template>  Untuk mengurus surat pengantar perubahan KK ( Kartu Keluarga ) Syarat dan berkas-berkas yang di serahkan
+    SYARAT : 
+    1. Surat Keterangan Pindah (Balai Pekon)
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    </template>
+  </category>
+
+<!-- =======PINDAH KK========= -->
+
+  <category>
+    <pattern>* PINDAH KK *</pattern>
+    <template>Untuk mengurus surat pindah kartu keluarga berkas-berkas yang di serahkan:
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PINDAH KK</pattern>
+    <template>Untuk mengurus surat pindah kartu keluarga berkas-berkas yang di serahkan:
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>PINDAH KK *</pattern>
+    <template>Untuk mengurus surat pindah kartu keluarga berkas-berkas yang di serahkan:
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PINDAH KARTU KELUARGA *</pattern>
+    <template>Untuk mengurus surat pindah kartu keluarga berkas-berkas yang di serahkan:
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>PINDAH KARTU KELUARGA *</pattern>
+    <template>Untuk mengurus surat pindah kartu keluarga berkas-berkas yang di serahkan:
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PINDAH KARTU KELUARGA</pattern>
+    <template>Untuk mengurus surat pindah kartu keluarga berkas-berkas yang di serahkan:
+
+    BERKAS :
+    1. Kartu Keluarga (Sebelumnya) 
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+<!-- =========SURAT KETERANGAN DOMISILI========== -->
+
+  <category>
+    <pattern>* KETERAGAN DOMISILI *</pattern>
+    <template>Untuk mengurus surat Keterangan domisili syarat berkas berkas yang di serahkan :
+    SYARAT : 
+    1. Surat Keterangan RT/RW
+
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* KETERAGAN DOMISILI</pattern>
+    <template>Untuk mengurus surat Keterangan domisili syarat berkas berkas yang di serahkan :
+    SYARAT : 
+    1. Surat Keterangan RT/RW
+
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>KETERAGAN DOMISILI *</pattern>
+    <template>Untuk mengurus surat Keterangan domisili syarat berkas berkas yang di serahkan :
+    SYARAT : 
+    1. Surat Keterangan RT/RW
+
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+<!-- =======KEHILANGAN======== -->
+
+  <category>
+    <pattern>* KETERAGAN KEHILANGAN *</pattern>
+    <template>Untuk mengurus surat pengantar keterangan kehilangan berkas berkas yang di serahkan :
+    BERKAS :
+    1. Fotocopy Kartu Keluarga (KK)
+    2. Fotocopy Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* KETERAGAN KEHILANGAN</pattern>
+    <template>Untuk mengurus surat pengantar keterangan kehilangan berkas berkas yang di serahkan :
+    BERKAS :
+    1. Fotocopy Kartu Keluarga (KK)
+    2. Fotocopy Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>KETERAGAN KEHILANGAN *</pattern>
+    <template>Untuk mengurus surat pengantar keterangan kehilangan berkas berkas yang di serahkan :
+    BERKAS :
+    1. Fotocopy Kartu Keluarga (KK)
+    2. Fotocopy Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+<!-- ======PEMBUATAN AKTE====== -->
+
+  <category>
+    <pattern>* PEMBUATAN AKTE *</pattern>
+    <template>Untuk mengurus surat pengantar pembuatan akte berkas berkas yang di serahkan :
+    SYARAT :
+    1. Surat Keterangan Lahir
+    2. Buku Nikah Orang Tua
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PEMBUATAN AKTE</pattern>
+    <template>Untuk mengurus surat pengantar pembuatan akte berkas berkas yang di serahkan :
+    SYARAT :
+    1. Surat Keterangan Lahir
+    2. Buku Nikah Orang Tua
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    </template>
+  </category>
+
+  <category>
+    <pattern>PEMBUATAN AKTE *</pattern>
+    <template>Untuk mengurus surat pengantar pembuatan akte berkas berkas yang di serahkan :
+    SYARAT :
+    1. Surat Keterangan Lahir
+    2. Buku Nikah Orang Tua
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    </template>
+  </category>
+
+<!-- =====NIKAH===== -->
+
+  <category>
+    <pattern>* NIKAH *</pattern>
+    <template>Untuk mengurus surat pengantar nikah akte berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    3. Ijazah
+    </template>
+  </category>
+
+  <category>
+    <pattern>* NIKAH</pattern>
+    <template>Untuk mengurus surat pengantar nikah akte berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    3. Ijazah
+    </template>
+  </category>
+
+  <category>
+    <pattern>NIKAH *</pattern>
+    <template>Untuk mengurus surat pengantar nikah akte berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    3. Ijazah
+    4. Foto  3 x 4 kedua mempelai
+    5. Materai
+    </template>
+  </category>
+
+<!-- ======SURAT KETERAANGAN TIDAK MAMPU====== -->
+
+  <category>
+    <pattern>* TIDAK MAMPU *</pattern>
+    <template>Untuk mengurus surat keterangan tidak mampu berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* TIDAK MAMPU</pattern>
+    <template>Untuk mengurus surat keterangan tidak mampu berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>TIDAK MAMPU *</pattern>
+    <template>Untuk mengurus surat keterangan tidak mampu berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SKTM *</pattern>
+    <template>Untuk mengurus surat keterangan tidak mampu berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SKTM</pattern>
+    <template>Untuk mengurus surat keterangan tidak mampu berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>SKTM *</pattern>
+    <template>Untuk mengurus surat keterangan tidak mampu berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+<!-- ======SURAT KETERANGAN KEMATIAN======= -->
+
+  <category>
+    <pattern>* KEMATIAN *</pattern>
+    <template>Untuk mengurus surat keterangan kematian berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* KEMATIAN</pattern>
+    <template>Untuk mengurus surat keterangan kematian berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>KEMATIAN *</pattern>
+    <template>Untuk mengurus surat keterangan kematian berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+<!-- ====SURAT KETERANGAN USAHA===== -->
+
+  <category>
+    <pattern>* USAHA *</pattern>
+    <template>Untuk mengurus surat keterangan usaha syrat dan berkas berkas yang di serahkan :
+    SYARAT : 
+    - Deskripsikan Usaha
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* USAHA</pattern>
+    <template>Untuk mengurus surat keterangan usaha syrat dan berkas berkas yang di serahkan :
+    SYARAT : 
+    - Deskripsikan Usaha
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>USAHA *</pattern>
+    <template>Untuk mengurus surat keterangan usaha syrat dan berkas berkas yang di serahkan :
+    SYARAT : 
+    - Deskripsikan Usaha
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SKU *</pattern>
+    <template>Untuk mengurus surat keterangan usaha syrat dan berkas berkas yang di serahkan :
+    SYARAT : 
+    - Deskripsikan Usaha
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SKU</pattern>
+    <template>Untuk mengurus surat keterangan usaha syrat dan berkas berkas yang di serahkan :
+    SYARAT : 
+    - Deskripsikan Usaha
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>SKU *</pattern>
+    <template>Untuk mengurus surat keterangan usaha syrat dan berkas berkas yang di serahkan :
+    SYARAT : 
+    - Deskripsikan Usaha
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+<!-- ========SURAT IZIN KERAMAIAN====== -->
+
+  <category>
+    <pattern>* KEGIATAN *</pattern>
+    <template>Untuk mengurus surat keterangan mengadakan kegiatan di keramaian berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* KEGIATAN</pattern>
+    <template>Untuk mengurus surat keterangan mengadakan kegiatan di keramaian berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>KEGIATAN *</pattern>
+    <template>Untuk mengurus surat keterangan mengadakan kegiatan di keramaian berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+<!-- ======SURAT KETERANGAN AHLI WARIS====== -->
+
+  <category>
+    <pattern>* AHLI WARIS *</pattern>
+    <template>Untuk mengurus surat keterangan ahli waris berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>* AHLI WARIS</pattern>
+    <template>Untuk mengurus surat keterangan ahli waris berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>AHLI WARIS *</pattern>
+    <template>Untuk mengurus surat keterangan ahli waris berkas berkas yang di serahkan :
+    
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+
+<!-- ======================================KONDISI JAWABAN TIDAK ADA DI NEGERI AGUNG===================================== -->
+
+
+<!-- ====UMKM========= -->
+
+  <category>
+    <pattern>* UMKM *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan UMKM</template>
+  </category>
+
+   <category>
+    <pattern>* UMKM</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan UMKM</template>
+  </category>
+
+   <category>
+    <pattern>UMKM *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan UMKM</template>
+  </category>
+
+<!-- =========TKI===== -->
+
+ <category>
+    <pattern>* TKI *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan TKI</template>
+  </category>
+
+  <category>
+    <pattern>* TKI</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan TKI</template>
+  </category>
+
+  <category>
+    <pattern>TKI *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan TKI</template>
+  </category>
+
+<!-- ====CERAI====== -->
+
+  <category>
+    <pattern>* CERAI *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan cerai</template>
+  </category>
+
+  <category>
+    <pattern>* CERAI</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan cerai</template>
+  </category>
+
+  <category>
+    <pattern>CERAI *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan cerai</template>
+  </category>
+
+<!-- ===RUJUK==== -->
+
+  <category>
+    <pattern>* RUJUK *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan rujuk</template>
+  </category>
+
+  <category>
+    <pattern>* RUJUK</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan rujuk</template>
+  </category>
+
+  <category>
+    <pattern>RUJUK *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan rujuk</template>
+  </category>
+
+<!-- ====PAJAK==== -->
+
+  <category>
+    <pattern>* PAJAK *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan pajak</template>
+  </category>
+
+  <category>
+    <pattern>* PAJAK</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan pajak</template>
+  </category>
+
+  <category>
+    <pattern>PAJAK *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan pajak</template>
+  </category>
+
+<!-- ====KPR==== -->
+
+  <category>
+    <pattern>* KPR *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan KPR</template>
+  </category>
+
+  <category>
+    <pattern>* KPR</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan KPR</template>
+  </category>
+
+  <category>
+    <pattern>KPR *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan KPR</template>
+  </category>
+
+<!-- =====Kredit====== -->
+
+  <category>
+    <pattern>* KREDIT *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan Kredit</template>
+  </category>
+
+  <category>
+    <pattern>* KREDIT</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan Kredit</template>
+  </category>
+
+  <category>
+    <pattern>KREDIT *</pattern>
+    <template>Maaf untuk saat ini kami belum menyediakan pelayanan Kredit</template>
+  </category>
 
 </aiml>
