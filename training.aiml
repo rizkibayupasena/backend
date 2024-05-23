@@ -1,0 +1,120 @@
+<aiml version="2.0">
+
+    <category>
+        <pattern>HI</pattern>
+        <template>HI juga ada yang bisa saya bantu?</template>
+    </category>
+
+    <category>
+        <pattern>HALO</pattern>
+        <template>Halo juga</template>
+    </category>
+
+    <category> 
+        <pattern>SIAPA KAMU</pattern>  
+        <template> 
+            <random> 
+                <li>Bisa di bilang saya adalah bot</li> 
+                <li>Saya adalah virtual asisten kelurahan negeri agung</li> 
+                <li>hmmmm saya siapa ya? bisa bantu jelaskan siapa saya?</li> 
+            </random> 
+        </template> 
+    </category>
+
+    <category> 
+        <pattern>* SIAPA KAMU</pattern>  
+        <template> 
+            <random> 
+                <li>Bisa di bilang saya adalah bot</li> 
+                <li>Saya adalah virtual asisten kelurahan negeri agung</li> 
+                <li>hmmmm saya siapa ya? bisa bantu jelaskan siapa saya?</li> 
+            </random> 
+        </template> 
+    </category>
+
+    <category> 
+        <pattern>* SIAPA KAMU *</pattern>  
+        <template> 
+            <random> 
+                <li>Bisa di bilang saya adalah bot</li> 
+                <li>Saya adalah virtual asisten kelurahan negeri agung</li> 
+                <li>hmmmm saya siapa ya? bisa bantu jelaskan siapa saya?</li> 
+            </random> 
+        </template> 
+    </category>
+
+    <category> 
+        <pattern>SIAPA KAMU *</pattern>  
+        <template> 
+            <random> 
+                <li>Bisa di bilang saya adalah bot</li> 
+                <li>Saya adalah virtual asisten kelurahan negeri agung</li> 
+                <li>hmmmm saya siapa ya? bisa bantu jelaskan siapa saya?</li> 
+            </random> 
+        </template> 
+    </category>
+
+    <category>
+        <pattern>ANGELICA AGNESIA DOSEN APA</pattern>
+        <template>
+            Wah, mantap jiwa nih. Aku kurang tahulah. Mudah-mudah aja masuk mata kuliah Pemrograman Berorientasi Objek di kelas kita ya.
+        </template>
+    </category>
+
+    <category>
+        <pattern>YUDI SETIAWAN DOSEN APA</pattern>
+        <template>
+            Tahulah. Anak kelas sebelah pernah cerita kalau dia itu dosen mata kuliah pemrograman mobile.
+        </template>
+    </category>
+
+    <category>
+        <pattern>NIA AMELIZA DOSEN APA</pattern>
+        <template>
+            Oh, dia itu dosen mata kuliah TechnoPreneurship.
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMU TAHU * NGAJAR MATA KULIAH APA</pattern>
+        <template>
+            <srai><star /> DOSEN APA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>APAKAH KAMU MENGERTI *</pattern>
+        <template>
+            <think><set name="subject"><star/></set></think>
+            <condition name="subject">
+                <li value="python">Ya, saya mengerti tentang Python.</li>
+                <li value="javascript">Ya, saya mengerti tentang JavaScript.</li>
+                <li>Maaf, saya tidak mengerti tentang <get name="subject"></get>.</li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA CUACANYA DI *</pattern>
+        <template>
+            <think><set name="city"><star/></set></think>
+            Maaf saya di program hanya untuk menjawab pertanyaan seputar pelayanan administrasi kelurahan Negri Agung, jadi saya tidak tahu kondisi cuaca di <get name="city"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SIAPA*</pattern>
+        <template>
+            <think><set name="query"><star/></set></think>
+            Maaf saya di program hanya untuk menjawab pertanyaan seputar pelayanan administrasi kelurahan Negri Agung, jadi saya tidak tahu siapa kamu <get name="query"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SAYA * NAMA LENGKAP KAMU APA</pattern>        
+        <template>
+            Hai <star />. Saya NABOT bot khusus untuk menjawab pertanyaan seputar administrasi. <star />
+        </template>
+    </category>
+
+</aiml>

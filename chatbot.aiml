@@ -1,27 +1,4 @@
 <aiml version="2.0">
-  <!-- Aturan AIML Default Pertanyaan Basa Basi -->
-  <category>
-    <pattern>HI</pattern>
-    <template>HI juga ada yang bisa saya bantu?</template>
-  </category>
-
-  <category>
-    <pattern>HALO</pattern>
-    <template>Halo juga</template>
-  </category>
-
-  <category> 
-    <pattern>* KAMU *</pattern>  
-    <template> 
-        <random> 
-            <li>Bisa di bilang saya adalah bot</li> 
-            <li>Saya adalah virtual assiten kelurahan negeri agung</li> 
-            <li>hmmmm saya siapa ya? bisa bantu jelaskan siapa saya?</li> 
-        </random> 
-    </template> 
-  </category>
-
-
   <!-- Aturan AIML JIKA JAWABAN TIDAK ADA -->
   <category>
     <pattern>*</pattern>
@@ -91,6 +68,7 @@
     </template>
   </category>
 
+ 
 
 <!-- ===============KARTU KELUARGA==================== -->
 
@@ -413,6 +391,19 @@
   </category>
 
   <category>
+    <pattern>* KETERANGAN DOMISILI *</pattern>
+    <template>Untuk mengurus surat Keterangan domisili syarat berkas berkas yang di serahkan :
+    SYARAT : 
+    1. Surat Keterangan RT/RW
+
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+
+  <category>
     <pattern>KETERAGAN DOMISILI *</pattern>
     <template>Untuk mengurus surat Keterangan domisili syarat berkas berkas yang di serahkan :
     SYARAT : 
@@ -424,10 +415,35 @@
     </template>
   </category>
 
+  <category>
+    <pattern>* DOMISILI</pattern>
+    <template>Untuk mengurus surat Keterangan domisili syarat berkas berkas yang di serahkan :
+    SYARAT : 
+    1. Surat Keterangan RT/RW
+
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+  <category>
+    <pattern>DOMISILI *</pattern>
+    <template>Untuk mengurus surat Keterangan domisili syarat berkas berkas yang di serahkan :
+    SYARAT : 
+    1. Surat Keterangan RT/RW
+
+    BERKAS :
+    1. Kartu Keluarga (KK)
+    2. Kartu Tanda Penduduk (KTP)
+    </template>
+  </category>
+
+
 <!-- =======KEHILANGAN======== -->
 
   <category>
-    <pattern>* KETERAGAN KEHILANGAN *</pattern>
+    <pattern>* KETERANGAN KEHILANGAN *</pattern>
     <template>Untuk mengurus surat pengantar keterangan kehilangan berkas berkas yang di serahkan :
     BERKAS :
     1. Fotocopy Kartu Keluarga (KK)
@@ -436,7 +452,7 @@
   </category>
 
   <category>
-    <pattern>* KETERAGAN KEHILANGAN</pattern>
+    <pattern>* KETERANGAN KEHILANGAN</pattern>
     <template>Untuk mengurus surat pengantar keterangan kehilangan berkas berkas yang di serahkan :
     BERKAS :
     1. Fotocopy Kartu Keluarga (KK)
@@ -445,7 +461,7 @@
   </category>
 
   <category>
-    <pattern>KETERAGAN KEHILANGAN *</pattern>
+    <pattern>KETERANGAN KEHILANGAN *</pattern>
     <template>Untuk mengurus surat pengantar keterangan kehilangan berkas berkas yang di serahkan :
     BERKAS :
     1. Fotocopy Kartu Keluarga (KK)
@@ -456,7 +472,7 @@
 <!-- ======PEMBUATAN AKTE====== -->
 
   <category>
-    <pattern>* PEMBUATAN AKTE *</pattern>
+    <pattern>* AKTE *</pattern>
     <template>Untuk mengurus surat pengantar pembuatan akte berkas berkas yang di serahkan :
     SYARAT :
     1. Surat Keterangan Lahir
@@ -468,7 +484,7 @@
   </category>
 
   <category>
-    <pattern>* PEMBUATAN AKTE</pattern>
+    <pattern>* AKTE</pattern>
     <template>Untuk mengurus surat pengantar pembuatan akte berkas berkas yang di serahkan :
     SYARAT :
     1. Surat Keterangan Lahir
@@ -480,7 +496,7 @@
   </category>
 
   <category>
-    <pattern>PEMBUATAN AKTE *</pattern>
+    <pattern> AKTE *</pattern>
     <template>Untuk mengurus surat pengantar pembuatan akte berkas berkas yang di serahkan :
     SYARAT :
     1. Surat Keterangan Lahir
