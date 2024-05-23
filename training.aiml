@@ -88,7 +88,7 @@
             <think><set name="subject"><star/></set></think>
             <condition name="subject">
                 <li value="python">Ya, saya mengerti tentang Python.</li>
-                <li value="javascript">Ya, saya mengerti tentang JavaScript.</li>
+                <li value="javascript">Ya, saya mengerti tentang <br></br>JavaScript.</li>
                 <li>Maaf, saya tidak mengerti tentang <get name="subject"></get>.</li>
             </condition>
         </template>
