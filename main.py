@@ -5,9 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 chatbot = Chatbot()
-CORS(app, origins=['https://frontend-lime-three-55.vercel.app', 'http://127.0.0.1:5500' , 'http://127.0.0.1:5501'])
-
-
+CORS(app, origins=['https://aimlchat.vercel.app', 'http://127.0.0.1:5500' , 'http://127.0.0.1:5501'])
 
 @app.route('/ask', methods=['POST'])
 def ask():

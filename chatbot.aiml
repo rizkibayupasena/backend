@@ -6,7 +6,7 @@
       <random>
         <li>Maaf saya tidak mengerti maksud anda</li>
         <li>Maaf saya tidak mengerti</li>
-        <li>Maaf saya tidak menegrti itu</li>
+        <li>Maaf saya tidak mengerti itu</li>
       </random>
     </template>
   </category>
@@ -33,6 +33,42 @@
       </template>
   </category>
 
+  <category>
+    <pattern>KEHILANGAN *</pattern>
+      <template>
+        <think><set name="subject"><star index="1"/></set></think>
+        <condition name="subject">
+          <li value="KTP"><srai>HILANG KTP</srai></li>
+          <li value="ktp"><srai>HILANG KTP</srai></li>
+          <li value="KK"><srai>HILANG KK</srai></li>
+          <li value="kk"><srai>HILANG KK</srai></li>
+          <li value="KARTU KELUARGA"><srai>HILANG KK</srai></li>
+          <li value="Kartu Keluarga"><srai>HILANG KK</srai></li>
+          <li value="Kartu keluarga"><srai>HILANG KK</srai></li>
+          <li value="kartu keluarga"><srai>HILANG KK</srai></li>
+          <li>Maaf, saya tidak tahu mengurus kehilangan <get name="subject"></get>.</li>
+        </condition>
+      </template>
+  </category>
+
+  <category>
+    <pattern>* KEHILANGAN</pattern>
+      <template>
+        <think><set name="subject"><star index="1"/></set></think>
+        <condition name="subject">
+          <li value="KTP"><srai>HILANG KTP</srai></li>
+          <li value="ktp"><srai>HILANG KTP</srai></li>
+          <li value="KK"><srai>HILANG KK</srai></li>
+          <li value="kk"><srai>HILANG KK</srai></li>
+          <li value="KARTU KELUARGA"><srai>HILANG KK</srai></li>
+          <li value="Kartu Keluarga"><srai>HILANG KK</srai></li>
+          <li value="Kartu keluarga"><srai>HILANG KK</srai></li>
+          <li value="kartu keluarga"><srai>HILANG KK</srai></li>
+          <li>Maaf, saya tidak tahu mengurus kehilangan <get name="subject"></get>.</li>
+        </condition>
+      </template>
+  </category>
+
 <!-- ========END KEHILANGAN========== -->
 
 <!-- ========PINDAH================= -->
@@ -40,6 +76,38 @@
     <pattern>* PINDAH *</pattern>
       <template>
         <think><set name="subject"><star index="2"/></set></think>
+        <condition name="subject">
+          <li value="KTP"><srai>PINDAH KTP</srai></li>
+          <li value="ktp"><srai>PINDAH KTP</srai></li>
+          <li value="KK"><srai>PINDAH KK</srai></li>
+          <li value="kk"><srai>PINDAH KK</srai></li>
+          <li value="Domisili"><srai>PINDAH DOMISILI</srai></li>
+          <li value="domisili"><srai>PINDAH DOMISILI</srai></li>
+          <li>Maaf, saya tidak tahu mengurus pindah <get name="subject"></get>.</li>
+        </condition>
+      </template>
+  </category>
+
+  <category>
+    <pattern>PINDAH *</pattern>
+      <template>
+        <think><set name="subject"><star index="1"/></set></think>
+        <condition name="subject">
+          <li value="KTP"><srai>PINDAH KTP</srai></li>
+          <li value="ktp"><srai>PINDAH KTP</srai></li>
+          <li value="KK"><srai>PINDAH KK</srai></li>
+          <li value="kk"><srai>PINDAH KK</srai></li>
+          <li value="Domisili"><srai>PINDAH DOMISILI</srai></li>
+          <li value="domisili"><srai>PINDAH DOMISILI</srai></li>
+          <li>Maaf, saya tidak tahu mengurus pindah <get name="subject"></get>.</li>
+        </condition>
+      </template>
+  </category>
+
+  <category>
+    <pattern>* PINDAH</pattern>
+      <template>
+        <think><set name="subject"><star index="1"/></set></think>
         <condition name="subject">
           <li value="KTP"><srai>PINDAH KTP</srai></li>
           <li value="ktp"><srai>PINDAH KTP</srai></li>
@@ -141,11 +209,17 @@
      Datang ke kantor polisi terdekat membuat laporan kehilangan KTP , lalu ke kantor kelurahan dengan Membawa kartu keluarga.
     </template>
   </category>
-
-
 <!-- END DATA KTP -->
 
 <!-- MAIN -->
+
+  <category>
+    <pattern>KTP</pattern>
+    <template>
+      <srai>INFORMASI KTP</srai>
+    </template>
+  </category>
+
   <category>
     <pattern>* KTP</pattern>
     <template>
@@ -227,7 +301,6 @@
     </template>
   </category>
 
-
   <category>
     <pattern>HILANG KK</pattern>
     <template>
@@ -257,8 +330,6 @@
       jika ada anggota yang ingin masuk ke KK saat ini maka wajib Membawa akte yang bersangkutan
     </template>
   </category>
-
-
 <!-- END DATA KK -->
   
   <category>
